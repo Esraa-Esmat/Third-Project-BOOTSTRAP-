@@ -98,6 +98,7 @@ img {
 .section7-item {
   position: relative;
 }
+
 /* .section7-item-itm img{
   height: 300px ;
 } */
@@ -257,13 +258,15 @@ img {
     padding: 10px 15px;
   }
 
+
   .header-search {
-    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    margin-left: 11rem;
   }
 
-  .header-btn-search,
-  .header-btn-login {
-    margin: auto;
+  .header-btn-search {
+    margin-left: 1rem;
   }
 
   .section7-container {
@@ -274,7 +277,7 @@ img {
   .card-scale {
     margin: 1rem;
   }
-  
+
   .jumbotron1,
   .jumbotron2 {
     height: 33rem;
